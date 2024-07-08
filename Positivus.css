@@ -1,0 +1,38 @@
+
+.col-lg{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px, 100px, 0px, 100px;
+    gap: 95.91px;
+    width:1.440px;
+}
+.col-1.ul {
+    width:1.440 px;
+    height: 68px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0px, 100px, 0px, 100px;
+    margin-top: 25px
+}
+
+.col-lg-5{
+
+    width: Hug (178px)px;
+    height: Hug (51px)px;
+    gap: 0px;
+    opacity: 0px;    
+    background-color: #B9FF66;
+    
+}
+
+.col-lg-6{
+width: Fixed (1,440px)px;
+height: Hug (51px)px;
+top: 971px;
+padding: 0px 100px 0px 100px;
+gap: 40px;
+opacity: 0px;
+
+}
