@@ -84,7 +84,6 @@
     height: 231px;
     gap: 0px;
     opacity: 0px;
-
 }
 
 .col ul{
@@ -98,12 +97,11 @@
     margin-top: 25px;
 }
 
-    
 .container ul li a{
     text-decoration: none;
     color:#000000 ;
-
 }
+
 .button{
     justify-content: space-between;
 }
@@ -131,6 +129,7 @@
     margin-right: 30px; /* Margin kanan */
     display: inline-block; /* Membuat elemen inline-block agar lebar sesuai dengan konten */
 }
+
 .coll-lg-6{
     width: 600px;
     height: 46px;
@@ -142,8 +141,8 @@
     line-height: 22.97px;
     text-align: left;
     margin-left: 10px;
-    
     }
+
 .col-lg-6{
     width: Fixed (1,440px)px;
     height: Hug (51px)px;
@@ -156,8 +155,8 @@
     font-size: 18px;
     font-weight: 100;
     line-height: 22.97px;
-    
     }
+
     .col-lg-6 p{
     width: 498px;
     height: 112px;
@@ -169,6 +168,7 @@
     line-height: 28px;
     text-align: left;
     }
+
 .img-full{
     width: 600.46px;
     height: 515px;
@@ -205,21 +205,16 @@
 }
 
 .card{
-    
-    
-        width: 600px;
-        height: 310px; 
-        gap: 0px;
-        opacity: 0px;
-        background-color: #F3F3F3;
-        border-radius: 45px;
-        box-shadow: 0px 5px 0px 0px #191A23;
-        border: 1px solid #191A23;
-        margin: auto;
-        
+    width: 600px;
+    height: 310px; 
+    gap: 0px;
+    opacity: 0px;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px #191A23;
+    border: 1px solid #191A23;
+    margin: 10px;
     }
-    
-
 
 .col2 .card{
     background-color: #B9FF66;
@@ -237,9 +232,11 @@
 .col5 .card{
     background-color:#B9FF66;
 }
+
 .col6 .card{
     background-color: #191A23;
 }
+
 .card-img-top{
     width: 210px;
     height: 150px;
@@ -251,99 +248,106 @@
     margin-bottom: -50px;
     
     }
-    .card-img-top1{
-        width: 180px;
-        height: auto;
-        gap: 0px;
-        opacity: 0px;
-        margin-top: -100px;
-        margin-left: 55%;;
-    }
 
-    .card-img-top2{
-        width: 180px;
-        height: auto;
-        gap: 0px;
-        opacity: 0px;
-        margin-top: -90px;
-        margin-left: 55%;;
-    }
-    .card-img-top3{
-        width:150px;
-        height:auto;
-        gap: 0px;
-        opacity: 0px;
-        margin-top: -100px;
-        margin-left: 55%;;
-    }
-    .card-img-top4{
-        width: 180px;
-        height: auto;
-        gap: 0px;
-        opacity: 0px;
-        margin-top: -70px;
-        margin-left: 55%;;
-    }
-    .card-img-top5{
-        width: 180px;
-        height: auto;
-        gap: 0px;
-        opacity: 0px;
-        margin-top: -50px;
-        margin-left: 55%;;
-    }
-    .card-img-top6{
-        width: 180px;
-        height: auto;
-        gap: 0px;
-        opacity: 0px;
-        margin-top: -90px;
-        margin-left: 55%;;
-    }
-    .card-title1 {
-        font-family: 'Space Grotesk';
-        background-color: #B9FF66;
-        margin-top: 50px;
-        width: 39%;
-        height: 43px;
-        border-radius: 7px;
-        text-align: left;
-        display: flex;
-        margin-bottom: -35px;
-        font-size: 30px; 
-        margin-left: 30px; 
-        line-height: 38.28px; 
-        white-space: pre; 
-        padding: 5px;
-    }
-    .card-title11 {
-        font-family: 'Space Grotesk';
-        background-color: #B9FF66;
-        width: 195px;
-        height: 43px;
-        padding: 5px;
-        margin-left: 30px;
-        border-radius: 9px;
-        text-align: left;
-        margin-bottom: 20px;
-        font-size: 30px;  
-        line-height: 38.28px; /* Adjust line height to match the spacing between lines // Preserve spaces and line breaks as in the image */
-    }
-    .card-title2{
-        font-family: 'Space Grotesk';
-        background-color: #ffffff;
-        margin-top: 50px;
-        width: 33%;
-        height: 43px;
-        border-radius: 7px;
-        text-align: left;
-        display: flex;
-        margin-bottom: -35px;
-        font-size: 30px; 
-        margin-left: 30px; 
-        line-height: 38.28px; 
-        white-space: pre; 
-        padding: 5px;
+.card-img-top1{
+    width: 180px;
+    height: auto;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: -100px;
+    margin-left: 55%;;
+}
+
+.card-img-top2{
+    width: 180px;
+    height: auto;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: -90px;
+    margin-left: 55%;;
+}
+
+.card-img-top3{
+    width:150px;
+    height:auto;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: -100px;
+    margin-left: 55%;;
+}
+
+.card-img-top4{
+    width: 180px;
+    height: auto;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: -70px;
+    margin-left: 55%;;
+}
+
+.card-img-top5{
+    width: 180px;
+    height: auto;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: -50px;
+    margin-left: 55%;;
+}
+
+.card-img-top6{
+    width: 180px;
+    height: auto;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: -90px;
+    margin-left: 55%;;
+}
+
+.card-title1 {
+    font-family: 'Space Grotesk';
+    background-color: #B9FF66;
+    margin-top: 50px;
+    width: 39%;
+    height: 43px;
+    border-radius: 7px;
+    text-align: left;
+    display: flex;
+    margin-bottom: -35px;
+    font-size: 30px; 
+    margin-left: 30px; 
+    line-height: 38.28px; 
+    white-space: pre; 
+    padding: 5px;
+}
+
+.card-title11 {
+    font-family: 'Space Grotesk';
+    background-color: #B9FF66;
+    width: 195px;
+    height: 43px;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 9px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 30px;  
+    line-height: 38.28px; 
+}
+.card-title2{
+    font-family: 'Space Grotesk';
+    background-color: #ffffff;
+    margin-top: 50px;
+    width: 33%;
+    height: 43px;
+    border-radius: 7px;
+    text-align: left;
+    display: flex;
+    margin-bottom: -35px;
+    font-size: 30px; 
+    margin-left: 30px; 
+    line-height: 38.28px; 
+    white-space: pre; 
+    padding: 5px;
 }
 .card-title12{
     font-family: 'Space Grotesk';
@@ -477,7 +481,7 @@
     line-height: 38.28px;
 }
 
-    .card-link {
+.card-link {
     font-family: 'Space Grotesk';
     display: flex;
     align-items: center;
@@ -485,38 +489,39 @@
     text-decoration: none;
     color: #000;
     margin-left: 5%;
-    }
-    
-    .card-link img {
-            margin-right: 15px;
-            margin-left: 20px;
-        }
-        .card-link p{
-            margin: 0%
-        }
-        .card-link1 {
-            font-family: 'Space Grotesk';
-            display: flex;
-            align-items: center;
-            margin-bottom: 100px;
-            text-decoration: none;
-            color: #ffffff;
-            margin-left: 5%;
-            margin-right: 50%;
-            }
-            
-        .card-link1 img {
-            margin-right: 15px;
-            margin-left: 20px;
-            }
-            .card-link1 p{
-                margin: 0%
-            }
+}
+.card-link img {
+    margin-right: 15px;
+    margin-left: 20px;
+}
+.card-link p{
+    margin: 0%
+}
 
-    .card-link p{
-        margin: 0%
-    }
-    
+.card-link1 {
+    font-family: 'Space Grotesk';
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 5%;
+    margin-right: 50%;
+}
+
+.card-link1 img {
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.card-link1 p{
+    margin: 0%
+}
+
+.card-link p{
+    margin: 0%
+}
+
 
 
 
