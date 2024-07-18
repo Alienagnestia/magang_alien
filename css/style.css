@@ -68,9 +68,9 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin-bottom: 130px;
-    bottom: 500px;
-    height: 400px;
+    margin-bottom: 50px;
+    /* bottom: 500px; */
+    /* height: 400px; */
     gap: 35px;
     font-family: 'Space Grotesk';
 }
@@ -78,13 +78,7 @@
 .left-main-text h1{
     font-family: 'Space Grotesk';
     font-size: 60px;
-    font-weight: 500;
-    line-height: 76.56px;
-    text-align: left;
-    width: 531px;
-    height: 231px;
-    gap: 0px;
-    opacity: 0px;
+    
 }
 
 .col ul{
@@ -113,7 +107,6 @@
     padding: 0px, 100px, 0px, 100px;
     gap: 50px;
     width: 1.440px;
-    
 }
 
 .col-lg-5 {
@@ -142,12 +135,12 @@
     font-weight: 400;
     line-height: 22.97px;
     text-align: left;
-    margin-left: 10px;
-    margin-top: 50px;
+    margin-left: 200px;
+    margin-top: -50px;
     }
 
 .col-lg-6{
-    width: Fixed (1,440px)px;
+    width: 650px;
     height: Hug (51px)px;
     margin-top: 30px;
     padding: 0px 100px 0px 100px;
@@ -170,15 +163,16 @@
     font-weight: 400;
     line-height: 28px;
     text-align: left;
+    
     }
 
-.img-full{
+.col-lg-img{
     width: 600.46px;
-    height: 515px;
+    height: 550px;
     gap: 0px;
-    border: 1px 0px 0px 0px;
+    /* border: 1px 0px 0px 0px; */
     opacity: 0px;
-    margin-bottom: 90px;
+
 }
 
 .col-lg-7{
@@ -205,6 +199,10 @@
     gap: 0px;
     opacity: 0px;
     
+}
+
+.row1{
+    margin-bottom: 70px;
 }
 
 .card{
