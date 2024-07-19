@@ -7,7 +7,7 @@
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
-    
+    background-color: aqua;
 }
 
 .row {
@@ -15,38 +15,36 @@
     align-items: center;
 }
 
-.logo-container {
-    flex: 1;
-}
+/* Bagian header */
 
 .nav-container {
-    flex: 2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    flex: 2; /*jarak header */
+     display: flex;  /* buat keatasin button */
+     align-items: center;  /*buat ke tengah  */
 }
 
-.nav-list {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    
-}
-
+/* bagian text header */
 .nav-list li {
     margin-right: 20px;
     margin-top: 20px;
 }
 
+/* bagian text header */
 .nav-list li a {
     text-decoration: none;
     color: #333;
     font-family: 'Space Grotesk';
 }
 
+/* bagian button */
 .button {
     margin-left: auto;
+    margin-right: 30px;
+    gap: 10px;
+    border-radius: 14px;
+    border: 1px;
+    opacity: 0px;
+    margin-top: 5px;
 }
 
 .button .btn {
@@ -59,7 +57,7 @@
 
 .button .btn:hover {
     background-color: #333;
- color: #fff;
+    color: #fff;
 }
 
 
@@ -81,6 +79,14 @@
     
 }
 
+.col-lg-img{
+    width: 600.46px;
+    height: 550px;
+    gap: 0px;
+    /* border: 1px 0px 0px 0px; */
+    opacity: 0px;
+}
+
 .col ul{
     width:1.440 px;
     height: 68px;
@@ -97,10 +103,7 @@
     color:#000000 ;
 }
 
-.button{
-    justify-content: space-between;
-}
-
+/* jarak logo  */
 .col-lg {
     display: flex;
     justify-content: space-between;
@@ -109,6 +112,11 @@
     width: 1.440px;
 }
 
+.row1{
+    margin-bottom: 70px;
+}
+
+/* bagian service */
 .col-lg-5 {
     background-color: #B9FF66; /* Warna latar belakang sesuai dengan gambar */
     padding: 5px; /* Padding yang merata di semua sisi */
@@ -125,6 +133,7 @@
     margin-top: 50px;
 }
 
+/* bagian text  */
 .coll-lg-6{
     width: 600px;
     height: 46px;
@@ -138,42 +147,6 @@
     margin-left: 200px;
     margin-top: -50px;
     }
-
-.col-lg-6{
-    width: 650px;
-    height: Hug (51px)px;
-    margin-top: 30px;
-    padding: 0px 100px 0px 100px;
-    gap: 40px;
-    opacity: 0px;
-    font-family: 'Space Grotesk';
-    margin-left: -70px;
-    font-size: 18px;
-    font-weight: 100;
-    line-height: 22.97px;
-    }
-
-    .col-lg-6 p{
-    width: 498px;
-    height: 112px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: 'Space Grotesk';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: left;
-    
-    }
-
-.col-lg-img{
-    width: 600.46px;
-    height: 550px;
-    gap: 0px;
-    /* border: 1px 0px 0px 0px; */
-    opacity: 0px;
-
-}
 
 .col-lg-7{
     width: 550px;
@@ -201,9 +174,7 @@
     
 }
 
-.row1{
-    margin-bottom: 70px;
-}
+
 
 .card{
     width: 600px;
@@ -217,6 +188,7 @@
     margin: 10px;
     }
 
+    /* bagian warna background card */
 .col2 .card{
     background-color: #B9FF66;
     
@@ -238,6 +210,7 @@
     background-color: #191A23;
 }
 
+/* bagian gambar card */
 .card-img-top{
     width: 210px;
     height: 150px;
@@ -247,7 +220,6 @@
     margin-left: 55%;
     justify-content: center;
     margin-bottom: -50px;
-    
     }
 
 .card-img-top1{
@@ -304,6 +276,7 @@
     margin-left: 55%;;
 }
 
+/* bagian text h3 card */
 .card-title1 {
     font-family: 'Space Grotesk';
     background-color: #B9FF66;
@@ -482,6 +455,7 @@
     line-height: 38.28px;
 }
 
+/* bagian icon card */
 .card-link {
     font-family: 'Space Grotesk';
     display: flex;
