@@ -7,7 +7,6 @@
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: aqua;
 }
 
 .row {
@@ -77,6 +76,10 @@
     font-family: 'Space Grotesk';
     font-size: 60px;
     
+}
+.left-main-text p{
+    font-family: 'Space Grotesk';
+    font-size: 25px;
 }
 
 .col-lg-img{
